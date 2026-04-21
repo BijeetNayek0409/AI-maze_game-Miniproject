@@ -1,13 +1,11 @@
 # AI-maze-game-Miniproject
 A Python + Pygame app where you draw a maze, set start and end points, and watch BFS and A* algorithms find the shortest path step by step.
 
-# AI Maze Solver — BFS vs A*
-
 An interactive maze solver built with Python and Pygame.
 Visualizes Breadth-First Search (BFS) and A* pathfinding algorithms in real time.
 
 ## How to Run
-pip install pygame
+pip install pygame ,
 python maze.py
 
 ## Controls
