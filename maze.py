@@ -117,7 +117,7 @@ def neighbors(node):
             result.append((nr, nc))
     return result
 
-
+#bfs
 def bfs():
     global visited, path
     queue   = deque([(start, [])])
@@ -141,7 +141,7 @@ def bfs():
 
 def heuristic(a, b):
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
-
+#astar
 def astar():
     global visited, path
     pq      = [(0, start, [])]
